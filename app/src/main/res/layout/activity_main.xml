@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="50dp"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/profile"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Name"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:background="@drawable/otp_bg"
+            android:layout_marginStart="10dp"
+            />
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:background="@drawable/otp_bg"
+            android:layout_marginStart="10dp"
+            />
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:background="@drawable/otp_bg"
+            android:layout_marginStart="10dp"
+            />
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:background="@drawable/otp_bg"
+            android:layout_marginStart="10dp"
+            />
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:background="@drawable/otp_bg"
+            android:layout_marginStart="10dp"
+            />
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:background="@drawable/otp_bg"
+            android:layout_marginStart="10dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:text="Submit"
+        />
+
+</LinearLayout>
