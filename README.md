@@ -10,7 +10,7 @@ This repository contains some better UI ideas for Android xml which can be used 
 </ul>
 
 
-1. Make sur your project is in Material 3
+1. Make sure your project is in Material 3
 2. Make sure your material dependency is added in grale (module :app)- >
 
 dependencies{
