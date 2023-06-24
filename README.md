@@ -11,7 +11,7 @@ This repository contains some better UI ideas for Android xml which can be used 
 
 
 1. Make sure your project is in Material 3
-2. Make sure your material dependency is added in grale (module :app)- >
+2. Make sure your material dependency is added in gradle (module :app)- >
 
 dependencies{
 
